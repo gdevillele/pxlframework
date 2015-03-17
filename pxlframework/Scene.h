@@ -51,11 +51,11 @@ namespace px
 
 
 // Add specializations here
-#if PX_COCOS2D_V3 == 1
+#if PXLFRAMEWORK_RENDERING_COCOS2D_V3 == 1
     #include "cocos2dx3/SceneCC3.h"
-#elif PX_COCOS2D_V2 == 1
+#elif PXLFRAMEWORK_RENDERING_COCOS2D_V2 == 1
     #include "cocos2dx2/SceneCC2.h"
-#elif PX_SPRITEKIT == 1
+#elif PXLFRAMEWORK_RENDERING_SPRITEKIT == 1
     #include "spritekit/SceneSK.h"
 #endif
 
