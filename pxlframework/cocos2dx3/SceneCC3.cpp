@@ -59,8 +59,8 @@ namespace px
 		 */
 		void SceneTpl<sdk::COCOS2D3>::onEnter()
 		{
-			schedule(schedule_selector(SceneTpl<sdk::COCOS2D3>::tick));
 			cocos2d::Scene::onEnter();
+			schedule(schedule_selector(SceneTpl<sdk::COCOS2D3>::tick));
 		}
 		
 		
